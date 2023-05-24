@@ -1,5 +1,5 @@
-import React from 'react'
-import './header.css'
+import React from 'react';
+import './header.css';
 import people from '../../assets/people.png';
 import ai from '../../assets/ai.png';
 
@@ -12,7 +12,7 @@ const Header = () => {
         </h1>
         <p> GPT-3, or the third-generation Generative Pre-trained Transformer, is a neural network machine learning model trained using internet data to generate any type of text.</p>
         <div className='gpt3__header-content__input'>
-          <input type='email' placeholder='Your Email address'></input>
+          <input type='email' placeholder='Your Email Address'></input>
           <button type='button'>Get started</button>
         </div>
         <div className='gpt3__header-content__people'>
